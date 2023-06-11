@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="registration.js"></script>
+    <style>
+      a.ex2:hover,
+      a.ex2:active {
+        font-size: 150%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center vh-100">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-4">
+            <input id="name"
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Enter name . . ."
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <input id="phoneNumber"
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Enter phone number . . ."
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <input id="email"
+              class="form-control my-1 shadow-sm"
+              type="email"
+              placeholder="Enter email . . ."
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-4">
+            <input id="challanNo"
+              class="form-control border-bottom my-1 shadow-sm"
+              type="text"
+              placeholder="Enter challan no . . ."
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <input id="vehicalNo"
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Enter vehical/DL number . . ."
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <select id="state"
+              class="form-select text-secondary shadow-sm my-1 shadow-sm"
+            >
+              <option selected>Please Select Challan State. . .</option>
+              <option value="">Andhra Pradesh</option>
+              <option value="">Assam</option>
+              <option value="">Bihar</option>
+              <option value="">Chhattisgarh</option>
+              <option value="">Goa</option>
+              <option value="">Gujarat</option>
+              <option value="">Haryana</option>
+              <option value="">Himachal Pradesh</option>
+              <option value="">Jharkhand</option>
+              <option value="">Karnataka</option>
+              <option value="">Kerala</option>
+              <option value="">Madhya Pradesh Bhopal</option>
+              <option value="">Maharashtra</option>
+              <option value="">Manipur</option>
+              <option value="">Meghalaya</option>
+              <option value="">Mizoram Aizawl</option>
+              <option value="">Nagaland</option>
+              <option value="">Odisha</option>
+              <option value="">Punjab</option>
+              <option value="">Rajasthan</option>
+              <option value="">Sikkim</option>
+              <option value="">Tamil Nadu</option>
+              <option value="">Telangana</option>
+              <option value="">Tripura</option>
+              <option value="">Uttar Pradesh</option>
+              <option value="">Uttarakhand</option>
+              <option value="">Gairsain</option>
+              <option value="">West Bengal</option>
+              <option value="">Andaman and Nicobar Islands</option>
+              <option value="">Chandigarh</option>
+              <option value="">Dadra & Nagar Haveli and Daman & Diu</option>
+              <option value="">Delhi</option>
+              <option value="">Jammu and Kashmir</option>
+              <option value="">Lakshadweep</option>
+              <option value="">Puducherry</option>
+              <option value="">Ladakh</option>
+            </select>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-4">
+            <input id="city"
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Challan City . . ."
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <input id="location"
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Challan location"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <input
+              class="form-control my-1 shadow-sm"
+              type="text"
+              placeholder="Please Select Challan Issue"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-12">
+            <textarea
+              class="form-control shadow-sm"
+              name=""
+              id=""
+              rows="5"
+              placeholder="Describe Your Issue . . "
+            ></textarea>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div>
+            <a class="ex2" href="#"
+              ><input
+                class="btn btn-primary mx-4 shadow-lg"
+                style="width: 150px"
+                type="button"
+                value="SUBMIT"
+                onclick="checkStatus()"
+            /></a>
+          </div>
+          <div>
+            <a class="ex2" href="#">
+              <input
+                class="btn btn-primary shadow-lg"
+                style="width: 150px"
+                type="button"
+                value="TICKET STATUS"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
